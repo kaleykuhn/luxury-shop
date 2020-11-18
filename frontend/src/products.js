@@ -77,7 +77,7 @@
 //     rating: 4,
 //     numReviews: 12,
 //   },
-// ]
+// ];
 
 // export default products;
 const products = [
@@ -86,7 +86,7 @@ const products = [
     name: 'Tory Small Bag  ',
     image: '/images/tory4.jpg',
     description:
-      'Our Lee Radziwill small bag is impeccably crafted in croc-embossed Italian leather. Detailed with signature lock-and-key hardware, the frame bag comes with an optional shoulder strap. The collection is named for Lee Radziwill, a woman Tory always admired — she was fearlessly unique ',
+      'Our Lee Radziwill small bag is impeccably crafted in croc-embossed Italian leather. Detailed with signature lock-and-key hardware, the frame bag comes with an optional shoulder strap. The collection is named for Lee Radziwill, a woman Tory always admired — she was fearlessly unique. ',
     brand: 'Lee Radziwill',
     category: 'Luxurybags',
     price: 798.0,
@@ -111,7 +111,7 @@ const products = [
     name: 'Tess Small Shouler Bag',
     image: '/images/clhoe5.jpg',
     description:
-      'designed in a small saddle shape that pays homage to the equestrian roots. Made in Italy from smooth black leather and supple suede, it has a ring-embellished front flap and compact interior with enough space for your phone, keys and wallet. The dual straps allow for a variety of carrying options.',
+      'Designed in a small saddle shape that pays homage to the equestrian roots. Made in Italy from smooth black leather and supple suede, it has a ring-embellished front flap and compact interior with enough space for your phone, keys and wallet. The dual straps allow for a variety of carrying options.',
     brand: 'Chloe',
     category: 'Luxurybags',
     price: 1890,
@@ -121,7 +121,7 @@ const products = [
   },
   {
     _id: '4',
-    name: 'Dionysus GG Supreme Chain Wallet',
+    name: 'Dionysus Chain Wallet',
     image: '/images/gucci.jpg',
     description:
       'Removable chain shoulder strap with a snap-flap closure and tiger head spur. Antiqued silertone hardware with leather lining',
@@ -148,9 +148,9 @@ const products = [
   {
     _id: '6',
     name: 'Monogram YSL Envelope Small Chain Sholder Bag',
-    image: '/images/saintlaurent.jpg',
+    image: '/images/saint-laurent-2.jpg',
     description:
-      'Saint Laurent shoulder bag in quilted powder-grain calf leather. Flap top with signature YSL logo; snap closure',
+      'Saint Laurent shoulder bag in quilted powder-grain calf leather. Flap top with signature YSL logo; snap closure.',
     brand: 'Saint Laurent',
     category: 'Luxurybags',
     price: 1999.99,
