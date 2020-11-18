@@ -86,7 +86,7 @@ const products = [
     name: 'Tory Small Bag  ',
     image: '/images/tory4.jpg',
     description:
-      'Our Lee Radziwill Small Bag is impeccably crafted in croc-embossed Italian leather. Detailed with signature lock-and-key hardware, the frame bag comes with an optional shoulder strap. The collection is named for Lee Radziwill, a woman Tory always admired — she was fearlessly unique ',
+      'Our Lee Radziwill small bag is impeccably crafted in croc-embossed Italian leather. Detailed with signature lock-and-key hardware, the frame bag comes with an optional shoulder strap. The collection is named for Lee Radziwill, a woman Tory always admired — she was fearlessly unique ',
     brand: 'Lee Radziwill',
     category: 'Luxurybags',
     price: 798.0,
