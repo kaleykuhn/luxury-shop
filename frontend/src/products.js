@@ -96,8 +96,8 @@ const products = [
   },
   {
     _id: '2',
-    name: 'Paloma Fold-Over Clutch Bag',
-    image: '/images/christian-Louboutin.jpg',
+    name: 'Paloma Fold-Over Clutch',
+    image: '/images/resizechristian.jpg',
     description: 'Grained calfskin clutch bag with mixed studs',
     brand: 'Christian Louboutin',
     category: 'Luxurybags',
@@ -109,7 +109,7 @@ const products = [
   {
     _id: '3',
     name: 'Tess Small Shouler Bag',
-    image: '/images/chloe.jpg',
+    image: '/images/clhoe5.jpg',
     description:
       'designed in a small saddle shape that pays homage to the equestrian roots. Made in Italy from smooth black leather and supple suede, it has a ring-embellished front flap and compact interior with enough space for your phone, keys and wallet. The dual straps allow for a variety of carrying options.',
     brand: 'Chloe',
@@ -135,7 +135,7 @@ const products = [
   {
     _id: '5',
     name: 'Reversible Liz Shopper in Visetos',
-    image: '/images/tanpurse.jpg',
+    image: '/images/resizetanpurse.jpg',
     description:
       'Crafted from classic Visetos, this practical style has a spacious silhouette that can be reversed and adjusted using side drawstrings. For unrivaled versatility, it also comes with a removable pouch that can be used as a separate purse.',
     brand: 'MCM',
