@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Tory Small Bag  ',
     image: '/images/tory4.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Paloma Fold-Over Clutch',
     image: '/images/resizechristian.jpg',
     description: 'Grained calfskin clutch bag with mixed studs',
@@ -25,7 +23,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Tess Small Shouler Bag',
     image: '/images/clhoe5.jpg',
     description:
@@ -38,7 +35,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Dionysus Chain Wallet',
     image: '/images/gucci.jpg',
     description:
@@ -51,7 +47,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Reversible Liz Shopper in Visetos',
     image: '/images/resizetanpurse.jpg',
     description:
@@ -64,7 +59,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Monogram YSL Envelope Small Chain Sholder Bag',
     image: '/images/saint-laurent-2.jpg',
     description:
