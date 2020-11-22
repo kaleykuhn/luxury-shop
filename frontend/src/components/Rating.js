@@ -5,7 +5,6 @@ const Rating = ({ value, text, color }) => {
   return (
     <div className='rating'>
       <span>
-        {/* if greater than or equal then else => then else */}
         <i
           style={{ color }}
           className={
@@ -65,7 +64,6 @@ const Rating = ({ value, text, color }) => {
           }
         ></i>
       </span>
-      {/* if exist text then show it */}
       <span>{text && text}</span>
     </div>
   );

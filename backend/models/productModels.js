@@ -24,7 +24,7 @@ const productSchema = mongoose.Schema(
     },
     image: {
       type: String,
-      unique: true,
+      required: true,
     },
     brand: {
       type: String,
@@ -33,9 +33,8 @@ const productSchema = mongoose.Schema(
     category: {
       type: String,
       required: true,
-      default: true,
     },
-    desc: {
+    description: {
       type: String,
       required: true,
     },
@@ -69,4 +68,4 @@ const productSchema = mongoose.Schema(
 
 const Product = mongoose.model('Product', productSchema);
 
-export default User;
+export default Product;
