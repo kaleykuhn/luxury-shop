@@ -7,10 +7,18 @@ h3 {
 .rating span {
   margin: 0.09rem;
 }
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
 /* .card {
   background: white;
   border-color: transparent;
 } */
-.flubber {
+/* .flubber {
   padding-right: 85px;
-}
+} */

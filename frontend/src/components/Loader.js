@@ -6,24 +6,14 @@ const Loader = () => {
     <Spinner
       animation='border'
       role='status'
-      syle={{
+      style={{
         width: '100px',
         height: '100px',
         margin: 'auto',
         display: 'block',
       }}
     >
-      <span
-        class='  <Row>
-        {products.map((product) => (
-          <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-            <Product product={product} />
-          </Col>
-        ))}
-      </Row>'
-      >
-        Loading...
-      </span>
+      <span className='sr-only'>Loading....</span>
     </Spinner>
   );
 };
