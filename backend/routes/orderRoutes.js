@@ -4,10 +4,12 @@ import {
   addOrderItems,
   getOrderById,
   updateOrderToPaid,
+  getMyOrders,
 } from '../controllers/orderController.js';
 import { protect } from '../middleware/authMiddleware.js';
 
 router.route('/').post(protect, addOrderItems);
+router.route('/myorders').get(protect, getMyOrders);
 //make sure this is at the bottom line of routes or it will try by id
 router.route('/:id').get(protect, getOrderById);
 router.route('/:id/pay').put(protect, updateOrderToPaid);
