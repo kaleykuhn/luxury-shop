@@ -33,7 +33,7 @@ const ProfileScreen = ({ location, history }) => {
     if (!userInfo) {
       history.push('/login');
     } else {
-      if (!user.name || success) {
+      if (!user || !user.name || success) {
         dispatch({ type: USER_UPDATE_PROFILE_RESET });
         dispatch(getUserDetails('profile'));
         dispatch(listMyOrders());
@@ -114,7 +114,7 @@ const ProfileScreen = ({ location, history }) => {
         ) : errorOrders ? (
           <Message variant='danger'>{errorOrders}</Message>
         ) : (
-          <Table strped bordered hover responsive className='table-sm'>
+          <Table striped bordered hover responsive className='table-sm'>
             <thead>
               <tr>
                 <th>ID</th>
