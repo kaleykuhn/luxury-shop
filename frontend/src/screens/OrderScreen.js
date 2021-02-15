@@ -73,7 +73,7 @@ const OrderScreen = ({ match, history }) => {
         setSdkReady(true);
       }
     }
-  }, [dispatch, orderId, successPay, successDeliver, order]);
+  }, [dispatch, orderId, successPay, successDeliver, order, history, userInfo]);
 
   //     if (!order || order._id !== orderId) {
   //       dispatch(getOrderDetails(orderId));
