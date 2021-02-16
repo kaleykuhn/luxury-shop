@@ -22,3 +22,31 @@ h2 {
 /* .flubber {
   padding-right: 85px;
 } */
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: rgb(4, 201, 250);
+}
+
+.carousel img {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 65%;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
