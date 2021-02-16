@@ -29,6 +29,16 @@ h2 {
 .carousel-item.active {
   display: flex;
 }
+/* .carousel {
+  background-color: rgb(41, 190, 219) !important;
+} */
+/* .carousel {
+  background-color: rgb(85, 57, 78) !important;
+} */
+
+.carousel {
+  background-color: rgba(16, 21, 24, 0.952) !important;
+}
 
 .carousel-caption {
   position: absolute;
@@ -38,6 +48,13 @@ h2 {
 .carousel-caption h2 {
   color: rgb(4, 201, 250);
 }
+/* .carousel-caption h2 {
+  color: rgb(199, 211, 216);
+} */
+
+/* .carousel-caption h2 {
+  color: rgb(199, 211, 216);
+} */
 
 .carousel img {
   height: 300px;
